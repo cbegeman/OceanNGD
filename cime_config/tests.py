@@ -133,6 +133,7 @@ _TESTS = {
             "SMS.T62_oQU120_ais20.MPAS_LISIO_TEST",
             "SMS.f09_g16_a.IGELM_MLI",
             "SMS_P12x2.ne4_oQU240.A_WCYCL1850.allactive-mach_mods",
+            "SMS_P12x2.ne4_oQU240.WCYCL1850NS.allactive-mach_mods",
             "ERS_Ln9.ne4pg2_ne4pg2.F-MMF1.eam-mmf_crmout",
             "SMS_B.ne4_ne4.F-EAM-AQP1.eam-hommexx",
             )
@@ -151,10 +152,12 @@ _TESTS = {
         "time"    : "03:00:00",
         "tests"   : (
             "ERS.ne11_oQU240.A_WCYCL1850",
+            "ERS.ne11_oQU240.WCYCL1850NS",
             "SMS_D_Ld1.ne30_oECv3.A_WCYCL1850S_CMIP6.allactive-v1cmip6",
             "ERS_Ln9.ne4_ne4.FC5AV1C-L",
             #"ERT_Ld31.ne16_g37.B1850C5",#add this line back in with the new correct compset
             "NCK.ne11_oQU240.A_WCYCL1850",
+            "NCK.ne11_oQU240.WCYCL1850NS",
             "PET.f19_g16.X.allactive-mach-pet",
             "PET.f45_g37_rx1.A.allactive-mach-pet",
             "PET_Ln9_PS.ne30_oECv3.A_WCYCL1850S.allactive-mach-pet",
